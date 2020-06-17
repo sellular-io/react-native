@@ -50,6 +50,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy, nullable) NSAttributedString *attributedText;
 @property (nonatomic, copy) NSString *inputAccessoryViewID;
 @property (nonatomic, assign) UIKeyboardType keyboardType;
+@property (nonatomic, assign) BOOL showSoftInputOnFocus;
 
 @end
 
